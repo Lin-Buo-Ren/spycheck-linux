@@ -98,7 +98,7 @@ class ReportGen:
                         "ions-against-thunderspy".format(os.linesep)
                 elif env_info.kdma_prot_state == env_info.KdmaPstate.Enabled:
                     self.report_output += "Your system supports Kernel DMA Protection, which"\
-                        "partially mitigates Thunderspy.{0}{0}For recommendations on how to"\
+                        " partially mitigates Thunderspy.{0}{0}For recommendations on how to"\
                             " further protect your system, please refer to https://thunderspy.io/"\
                             "#kernel-dma-protection{0}Please note that the extent to which your"\
                             " system is partially vulnerable may change as research progresses."\
